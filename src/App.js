@@ -152,7 +152,9 @@ class App extends Component {
 }
 
 const mapStateToProps = state => {
- state
+ return {
+   state
+  };
 }
 
 export default connect (mapStateToProps)(App);
